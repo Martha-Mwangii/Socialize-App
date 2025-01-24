@@ -1,0 +1,27 @@
+.user-profile {
+    background-color: #e92121;
+    padding: 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin:0 ;
+    height: 600px;
+    text-align: center;
+  }
+  
+  .profile-avatar {
+    width: 700px;
+    height: 700px;
+    border-radius: 80%;
+    object-fit: cover;
+  }
+  .profile-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .profile-stats p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }

@@ -1,0 +1,16 @@
+.home {
+  padding-top: 80px; /* Adds padding to account for the fixed navbar */
+  text-align: center;
+}
+
+.full-width-image {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0; /* Adjusts the  margin as needed */
+}
+
+.home p {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 1rem;
+}

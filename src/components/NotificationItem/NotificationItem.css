@@ -1,0 +1,32 @@
+.notification-item {
+  background-color: #f0f2f5;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 400px; /* Reduces the width of notifications */
+  margin: 0 auto 10px; /* Centers the notifications */
+}
+
+.notification-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+  flex: 1; /* Allow the text to take up available space */
+}
+
+.remove-button {
+  background-color: #ff4d4d; 
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px; /* Adds space between the text and the button */
+}
+
+.remove-button:hover {
+  background-color: #cc0000; 
+}

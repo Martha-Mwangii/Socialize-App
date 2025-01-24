@@ -1,0 +1,12 @@
+.notifications {
+  max-width: 600px;
+  margin-top: 60px; 
+  padding:0; /* Adds padding-top to account for the navbar */
+}
+
+.notifications h3 {
+  margin: 0 0 15px;
+  font-size: 20px;
+  color: #333;
+  text-align: center; /* Centers the heading */
+}

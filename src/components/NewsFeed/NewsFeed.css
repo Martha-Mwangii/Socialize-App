@@ -1,0 +1,6 @@
+.news-feed {
+  background-color: brown;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0; /* Add the padding-top to account for the navbar */
+}

@@ -1,0 +1,30 @@
+.comment {
+    background-color: #f0f2f5;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .comment p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    flex: 1; /*Allows the text to take up available space */
+  }
+  
+  .remove-button {
+    background-color: #ff4d4d; /* sets the button to Red  */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px; /* Adds space between the comment and the button */
+  }
+  
+  .remove-button:hover {
+    background-color: #cc0000; /* Darkens the red remove btn on hover */
+  }
